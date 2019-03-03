@@ -16,3 +16,7 @@
 * NECTEC-LEXiTRON (http://lexitron.nectec.or.th)
 * The Royal Institute (http://rirs3.royin.go.th/)
 * Phra Brahmagunabhorn (http://www.payutto.org)
+
+### Credits
+
+* Sila Chunwijitra <hin@opentle.org>
