@@ -1,5 +1,6 @@
-# Hunspell-TH
-Codename: Hunspell-TH. A Thai dictionary extension. Designed for spell checkers and morphological analyzers. Released under GPLv3 &amp; LGPLv3. Covered by FDLv1.3.
+# Codename: "Hunspell-TH"
+### Hunspell-MS: A Thai Dictionary Extension
+
 
 # Changelog (Highlights)
 
