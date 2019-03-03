@@ -1,5 +1,5 @@
 # Codename: "Hunspell-TH"
-### Hunspell-MS: A Thai Dictionary Extension
+### Hunspell-TH: A Thai Dictionary Extension
 
 
 # Changelog (Highlights)
