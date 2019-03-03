@@ -3,7 +3,7 @@ Codename: Hunspell-TH. A Thai dictionary extension. Designed for spell checkers 
 
 # Changelog (Highlights)
 
-*
+* Wordlist: 39792 additions 0 deletion (3 March 2019) 
 * Reference added (3 March 2019)
 
 # Reference
