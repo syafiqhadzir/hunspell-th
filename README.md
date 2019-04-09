@@ -8,6 +8,8 @@
 
 [![Codename](https://img.shields.io/badge/Codename-Hunspell--TH-black.svg?longCache=true)](https://academic.syafiqhadzir.com/en-MY/research/) [![Version](https://img.shields.io/badge/Version-0.1e-yellowgreen.svg?longCache=true)](https://github.com/SyafiqHadzir/hunspell-th/tree/master/Release) [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg?longCache=true)](https://www.gnu.org/licenses/gpl-3.0) [![Status Experimental](https://img.shields.io/badge/Status-Experimental-black.svg?longCache=true)](https://github.com/SyafiqHadzir/hunspell-th/releases) ![Unicode ISO-8859-1](https://img.shields.io/badge/Unicode-UTF--8-green.svg?longCache=true) ![Unicode UTF-8](https://img.shields.io/badge/Wordlist-39792%20words-green.svg?longCache=true)
 
+This is the bleeding edge branch of Hunspell-MS repository.
+
 ### CHANGELOG (Highlights)
 
 * Wordlist: 39792 additions 0 deletion (3 March 2019) 
