@@ -1,7 +1,7 @@
 # Codename: "Hunspell-TH"
 ### Hunspell-TH: A Thai Dictionary Extension
 
-<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Royal_Institute_of_Thailand_Seal.jpg" alt="Dedicated For LibreOffice" title="Dedicated For LibreOffice" height="450" /></div>
+<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Royal_Institute_of_Thailand_Seal.jpg" alt="Dedicated For LibreOffice" title="Dedicated For LibreOffice" height="300" /></div>
 
 
 ## Affix File For Thai Language, ภาษาไทย (Thailand) Dictionary
