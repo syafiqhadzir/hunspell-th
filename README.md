@@ -12,7 +12,7 @@ This is the bleeding edge branch of Hunspell-TH repository.
 
 ### CHANGELOG (Highlights)
 
-* Wordlist: 23 additions 0 deletion (14 November 2019)
+* Wordlist: 55 additions 0 deletion (14 November 2019)
 * Wordlist: 39792 additions 0 deletion (3 March 2019) 
 * Reference added (3 March 2019)
 * Converted from TIS620-2533 to UTF-8 (3 March 2019)
