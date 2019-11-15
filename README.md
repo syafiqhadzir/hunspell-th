@@ -82,7 +82,7 @@ Distributed and covered under the GNU Free Documentation License. See [http://ww
 
 Syafiq Hadzir - [@syafiqhadzir_](https://twitter.com/syafiqhadzir_) - inquiry@syafiqhadzir.dev
 
-Project Link: [https://github.com/Hunspell-MS/Hunspell-MS](https://github.com/Hunspell-MS/Hunspell-MS)
+Project Link: [https://github.com/Hunspell-TH/Hunspell-TH](https://github.com/Hunspell-TH/Hunspell-TH)
 
 
 
