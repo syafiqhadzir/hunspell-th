@@ -42,31 +42,49 @@
 
 This is the bleeding edge branch of Hunspell-TH repository.
 
-### CHANGELOG (Highlights)
+
+
+<!-- CHANGELOG (Highlights) -->
+## CHANGELOG (Highlights)
 
 * Wordlist: 112 additions 0 deletion (14 November 2019)
 * Wordlist: 39792 additions 0 deletion (3 March 2019) 
 * Reference added (3 March 2019)
 * Converted from TIS620-2533 to UTF-8 (3 March 2019)
 
-### Reference
+
+
+<!-- References -->
+## References
 
 * NECTEC-LEXiTRON (http://lexitron.nectec.or.th)
 * The Royal Institute (http://rirs3.royin.go.th/)
 * Phra Brahmagunabhorn (http://www.payutto.org)
 
-### Credits
+
+
+<!-- CREDITS -->
+## Credits
 
 * Sila Chunwijitra <hin@opentle.org>
 
-License
-----
 
-GPL v3.
 
-This dictionary is covered by the 'GNU Free Documentation License', viewable at http://www.gnu.org/copyleft/fdl.html 
+<!-- LICENSE -->
+## License
 
-**Free Software, Oh Yeah!**
+Distributed and covered under the GNU Free Documentation License. See [http://www.gnu.org/copyleft/fdl.html][license-url] for more information.
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Syafiq Hadzir - [@syafiqhadzir_](https://twitter.com/syafiqhadzir_) - inquiry@syafiqhadzir.dev
+
+Project Link: [https://github.com/Hunspell-MS/Hunspell-MS](https://github.com/Hunspell-MS/Hunspell-MS)
+
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
