@@ -1,7 +1,39 @@
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/Hunspell-TH/Hunspell-TH">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Royal_Institute_of_Thailand_Seal.jpg"
+         alt="Inspired by Royal Society of Thailand"
+         title="Inspired by Royal Society of Thailand"
+         height="200" />
+  </a>
+  <h3 align="center">Codename: "Hunspell-TH" [Experimental]</h3>
+  <p align="center">
+    เอกสารอย่างเป็นทางการสำหรับผู้ใช้และนักพัฒนา<br />
+    The official documentation for end-users and developers
+    <br />
+    <a href="https://hunspell-th.syafiqhadzir.dev/"><strong>View Complete Wiki »</strong></a>
+    <br />
+  </p>
+</p>
+
+<br /><br />
+
 # Codename: "Hunspell-TH"
 ### Hunspell-TH: A Thai Dictionary Extension
-
-<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Royal_Institute_of_Thailand_Seal.jpg" alt="Royal Society of Thailand" title="Royal Society of Thailand" height="300" /></div>
 
 
 ## Affix File For Thai Language, ภาษาไทย (Thailand) Dictionary
@@ -35,3 +67,15 @@ GPL v3.
 This dictionary is covered by the 'GNU Free Documentation License', viewable at http://www.gnu.org/copyleft/fdl.html 
 
 **Free Software, Oh Yeah!**
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/Hunspell-TH/Hunspell-TH.svg?style=flat-square
+[contributors-url]: https://github.com/Hunspell-TH/Hunspell-TH/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Hunspell-TH/Hunspell-TH.svg?style=flat-square
+[forks-url]: https://github.com/Hunspell-TH/Hunspell-TH/network/members
+[stars-shield]: https://img.shields.io/github/stars/Hunspell-TH/Hunspell-TH.svg?style=flat-square
+[stars-url]: https://github.com/Hunspell-TH/Hunspell-TH/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Hunspell-TH/Hunspell-TH.svg?style=flat-square
+[issues-url]: https://github.com/Hunspell-TH/Hunspell-TH/issues
+[license-url]: http://www.gnu.org/copyleft/fdl.html
