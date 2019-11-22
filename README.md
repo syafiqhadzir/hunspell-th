@@ -68,7 +68,8 @@ This is the bleeding edge branch of Hunspell-TH repository.
 ## Credits
 
 * Sila Chunwijitra <hin@opentle.org>
-
+* Nisakorn Valyasevi (https://github.com/nv23)
+* Pakkapon Phongthawee (https://github.com/pureexe)
 
 
 <!-- LICENSE -->
