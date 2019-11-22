@@ -47,7 +47,7 @@ This is the bleeding edge branch of Hunspell-TH repository.
 <!-- CHANGELOG (Highlights) -->
 ## CHANGELOG (Highlights)
 
-* Wordlist: 50 additions 0 deletion (22 November 2019)
+* Wordlist: 82 additions 0 deletion (22 November 2019)
 * Wordlist: 112 additions 0 deletion (14 November 2019)
 * Wordlist: 39792 additions 0 deletion (3 March 2019) 
 * Reference added (3 March 2019)
