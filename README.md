@@ -15,7 +15,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/Hunspell-TH/Hunspell-TH">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Royal_Institute_of_Thailand_Seal.jpg"
+    <img src="https://github.com/Hunspell-TH/Hunspell-TH/blob/experimental/assets/royinthai.jpg"
          alt="Inspired by Royal Society of Thailand"
          title="Inspired by Royal Society of Thailand"
          height="200" />
