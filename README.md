@@ -6,6 +6,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -33,8 +34,8 @@
 <br /><br />
 
 # Codename: "Hunspell-TH"
-### Hunspell-TH: A Thai Dictionary Extension
 
+### Hunspell-TH: A Thai Dictionary Extension
 
 ## Affix File For Thai Language, ภาษาไทย (Thailand) Dictionary
 
@@ -42,54 +43,49 @@
 
 This is the bleeding edge branch of Hunspell-TH repository.
 
-
-
 <!-- CHANGELOG (Highlights) -->
+
 ## CHANGELOG (Highlights)
 
-* Wordlist: 82 additions 0 deletion (22 November 2019)
-* Wordlist: 112 additions 0 deletion (14 November 2019)
-* Wordlist: 39792 additions 0 deletion (3 March 2019) 
-* Reference added (3 March 2019)
-* Converted from TIS620-2533 to UTF-8 (3 March 2019)
-
-
+- Wordlist: 8 additions 0 deletions (9 November 2021)
+- Wordlist: 82 additions 0 deletion (22 November 2019)
+- Wordlist: 112 additions 0 deletion (14 November 2019)
+- Wordlist: 39792 additions 0 deletion (3 March 2019)
+- Reference added (3 March 2019)
 
 <!-- References -->
+
 ## References
 
-* NECTEC-LEXiTRON (http://lexitron.nectec.or.th)
-* The Royal Institute (http://rirs3.royin.go.th/)
-* Phra Brahmagunabhorn (http://www.payutto.org)
-
-
+- NECTEC-LEXiTRON (http://lexitron.nectec.or.th)
+- The Royal Institute (http://rirs3.royin.go.th/)
+- Phra Brahmagunabhorn (http://www.payutto.org)
 
 <!-- CREDITS -->
+
 ## Credits
 
-* Sila Chunwijitra <hin@opentle.org>
-* Nisakorn Valyasevi (https://github.com/nv23)
-* Pakkapon Phongthawee (https://github.com/pureexe)
-
+- Sila Chunwijitra <hin@opentle.org>
+- Nisakorn Valyasevi (https://github.com/nv23)
+- Pakkapon Phongthawee (https://github.com/pureexe)
 
 <!-- LICENSE -->
+
 ## License
 
 Distributed and covered under the GNU Free Documentation License. See [http://www.gnu.org/copyleft/fdl.html][license-url] for more information.
 
-
-
 <!-- CONTACT -->
+
 ## Contact
 
-Syafiq Hadzir - [@syafiqhadzir_](https://twitter.com/syafiqhadzir_) - inquiry@syafiqhadzir.dev
+Syafiq Hadzir - [@syafiqhadzir\_](https://twitter.com/syafiqhadzir_) - inquiry@syafiqhadzir.dev
 
 Project Link: [https://github.com/SyafiqHadzir/Hunspell-TH](https://github.com/SyafiqHadzir/Hunspell-TH)
 
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/SyafiqHadzir/Hunspell-TH.svg?style=flat-square
 [contributors-url]: https://github.com/SyafiqHadzir/Hunspell-TH/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/SyafiqHadzir/Hunspell-TH.svg?style=flat-square
