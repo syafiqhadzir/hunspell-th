@@ -58,7 +58,7 @@ This is the bleeding edge branch of Hunspell-TH repository.
 ## References
 
 - NECTEC-LEXiTRON (http://lexitron.nectec.or.th)
-- The Royal Institute (http://rirs3.royin.go.th/)
+- The Royal Institute (http://dictionary.orst.go.th/)
 - Phra Brahmagunabhorn (http://www.payutto.org)
 
 <!-- CREDITS -->
