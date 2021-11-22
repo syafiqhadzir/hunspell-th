@@ -47,11 +47,11 @@ This is the bleeding edge branch of Hunspell-TH repository.
 
 ## CHANGELOG (Highlights)
 
+- Wordlist: 100 additions 0 deletions (22 November 2021)
 - Wordlist: 100 additions 0 deletions (20 November 2021)
 - Wordlist: 100 additions 0 deletions (19 November 2021)
 - Wordlist: 150 additions 0 deletions (18 November 2021)
 - Wordlist: 150 additions 0 deletions (17 November 2021)
-- Wordlist: 200 additions 0 deletions (16 November 2021)
 
 <!-- References -->
 
