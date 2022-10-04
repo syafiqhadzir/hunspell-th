@@ -10,7 +10,6 @@
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -92,6 +91,4 @@ Project Link: [https://github.com/SyafiqHadzir/Hunspell-TH](https://github.com/S
 [forks-url]: https://github.com/SyafiqHadzir/Hunspell-TH/network/members
 [stars-shield]: https://img.shields.io/github/stars/SyafiqHadzir/Hunspell-TH.svg?style=flat-square
 [stars-url]: https://github.com/SyafiqHadzir/Hunspell-TH/stargazers
-[issues-shield]: https://img.shields.io/github/issues/SyafiqHadzir/Hunspell-TH.svg?style=flat-square
-[issues-url]: https://github.com/SyafiqHadzir/Hunspell-TH/issues
 [license-url]: http://www.gnu.org/copyleft/fdl.html
