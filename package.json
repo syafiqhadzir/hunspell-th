@@ -1,0 +1,18 @@
+{
+  "name": "hunspell-th",
+  "version": "0.1.0",
+  "description": "LibreOffice Malay dictionary extension. Released under GPLv3.",
+  "files": [
+    "th_TH.aff",
+    "th_TH.dic",
+    "th_TH-payutto.dic",
+    "th_TH-royin.dic"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SyafiqHadzir/Hunspell-TH.git"
+  },
+  "author": "Syafiq Hadzir <syafiqhadzir@live.com.my> (https://syafiqhadzir.dev)",
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/SyafiqHadzir/Hunspell-TH"
+}
