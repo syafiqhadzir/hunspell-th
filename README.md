@@ -24,9 +24,6 @@
   <p align="center">
     เอกสารอย่างเป็นทางการสำหรับผู้ใช้และนักพัฒนา<br />
     The official documentation for end-users and developers
-    <br />
-    <a href="https://hunspell-th.syafiqhadzir.dev/"><strong>View Complete Wiki »</strong></a>
-    <br />
   </p>
 </p>
 
