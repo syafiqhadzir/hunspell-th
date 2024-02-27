@@ -42,16 +42,6 @@
 
 This is the bleeding edge branch of Hunspell-TH repository.
 
-<!-- CHANGELOG (Highlights) -->
-
-## CHANGELOG (Highlights)
-
-- Wordlist: 50 additions 0 deletions (24 November 2021)
-- Wordlist: 150 additions 0 deletions (23 November 2021)
-- Wordlist: 100 additions 0 deletions (22 November 2021)
-- Wordlist: 100 additions 0 deletions (20 November 2021)
-- Wordlist: 100 additions 0 deletions (19 November 2021)
-
 <!-- References -->
 
 ## References
