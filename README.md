@@ -1,81 +1,84 @@
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
+# Hunspell-TH: Thai Dictionary for Hunspell
 
-<!-- PROJECT LOGO -->
-<br />
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg?longCache=true)](https://www.gnu.org/licenses/gpl-3.0)
+[![Wordlist Size](https://img.shields.io/badge/Wordlist-38k%2B-green.svg)](th_TH.dic)
+[![Encoding](https://img.shields.io/badge/Encoding-UTF--8-success.svg)](#)
+
+A high-quality Thai (`th_TH`) dictionary extension for Hunspell, optimized for accuracy and performance. This project aims to provide a unified and expertly maintained wordlist for Thai spell-checking applications.
+
 <p align="center">
-  <a href="https://github.com/Hunspell-TH/Hunspell-TH">
-    <img src="https://github.com/Hunspell-TH/Hunspell-TH/blob/experimental/assets/royinthai.jpg"
-         alt="Inspired by Royal Society of Thailand"
-         title="Inspired by Royal Society of Thailand"
-         height="200" />
-  </a>
-  <h3 align="center">Codename: "Hunspell-TH" [Experimental]</h3>
-  <p align="center">
-    เอกสารอย่างเป็นทางการสำหรับผู้ใช้และนักพัฒนา<br />
-    The official documentation for end-users and developers
-  </p>
+  <img src="assets/royinthai.jpg" alt="Hunspell-TH Logo" height="200" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </p>
 
-<br /><br />
+## 🚀 Features
 
-# Codename: "Hunspell-TH"
+*   **Unified Wordlist**: Combines data from multiple reliable sources into a single, comprehensive `th_TH.dic`.
+*   **Expert Optimization**: Implements best-practice `TRY` (frequency-based) and `KEY` (layout-based) directives in `th_TH.aff` for superior suggestion quality.
+*   **Standardized**: Fully compatible with Hunspell-based applications (LibreOffice, Firefox, macOS, etc.) and follows strict UTF-8 encoding.
+*   **Data-Driven**: sorting and frequency analysis based on actual usage patterns.
 
-### Hunspell-TH: A Thai Dictionary Extension
+## 📦 Installation
 
-## Affix File For the Central Thai Language, ภาษาไทย (Thailand) Dictionary
+You can use the `.dic` and `.aff` files directly in any Hunspell-compatible application.
 
-[![Codename](https://img.shields.io/badge/Codename-Hunspell--TH-black.svg?longCache=true)](https://academic.syafiqhadzir.com/en-MY/research/) [![Version](https://img.shields.io/badge/Version-0.1e-yellowgreen.svg?longCache=true)](https://github.com/SyafiqHadzir/hunspell-th/tree/master/Release) [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg?longCache=true)](https://www.gnu.org/licenses/gpl-3.0) [![Status Experimental](https://img.shields.io/badge/Status-Experimental-black.svg?longCache=true)](https://github.com/SyafiqHadzir/hunspell-th/releases) ![Unicode ISO-8859-1](https://img.shields.io/badge/Unicode-UTF--8-green.svg?longCache=true) ![Unicode UTF-8](https://img.shields.io/badge/Wordlist-39792%20words-green.svg?longCache=true)
+### Manual Installation
+1.  Download `th_TH.dic` and `th_TH.aff` from this repository.
+2.  Place them in your system's spelling directory:
+    *   **macOS**: `~/Library/Spelling/` or `/Library/Spelling/`
+    *   **Linux**: `/usr/share/hunspell/`
+    *   **Windows**: varies by application (e.g., `%APPDATA%\OpenOffice\4\user\wordbook`)
 
-This is the bleeding edge branch of Hunspell-TH repository.
+### NPM (Node.js)
+If you are developing a Node.js application, you can install this package directly (future support):
+```bash
+npm install hunspell-th
+```
 
-<!-- References -->
+## 🛠 Usage
 
-## References
+### Command Line (Hunspell)
+```bash
+hunspell -d ./th_TH -i utf-8 file_to_check.txt
+```
 
-- NECTEC-LEXiTRON (http://lexitron.nectec.or.th)
-- The Royal Institute (http://dictionary.orst.go.th/)
-- Phra Brahmagunabhorn (http://www.payutto.org)
+### Node.js (with nspell)
+```javascript
+import nspell from 'nspell';
+import fs from 'fs';
 
-<!-- CREDITS -->
+const affix = fs.readFileSync('th_TH.aff');
+const dictionary = fs.readFileSync('th_TH.dic');
 
-## Credits
+const spell = nspell(affix, dictionary);
 
-- Sila Chunwijitra <hin@opentle.org>
-- Nisakorn Valyasevi (https://github.com/nv23)
-- Pakkapon Phongthawee (https://github.com/pureexe)
+console.log(spell.correct('สวัสดี')); // true
+console.log(spell.suggest('สวัดดี')); // ['สวัสดี', ...]
+```
 
-<!-- LICENSE -->
+## 📚 Data Sources & Acknowledgements
 
-## License
+This dictionary is curated from the following respected sources:
+*   **The Royal Institute of Thailand (ORST)**: [dictionary.orst.go.th](http://dictionary.orst.go.th/)
+*   **NECTEC LEXiTRON**: [lexitron.nectec.or.th](http://lexitron.nectec.or.th)
+*   **Phra Brahmagunabhorn**: [payutto.org](http://www.payutto.org)
 
-Distributed and covered under the GNU Free Documentation License. See [http://www.gnu.org/copyleft/fdl.html][license-url] for more information.
+## 🤝 Contributing
 
-<!-- CONTACT -->
+Contributions are welcome! If you find missing words or incorrect spellings, please feel free to open an issue or submit a pull request.
 
-## Contact
+1.  Fork the repository.
+2.  Create your feature branch (`git checkout -b feature/AddWords`).
+3.  Commit your changes (`git commit -m 'Add new words'`).
+4.  Push to the branch (`git push origin feature/AddWords`).
+5.  Open a Pull Request.
 
-Syafiq Hadzir - [@syafiqhadzir\_](https://twitter.com/syafiqhadzir_) - inquiry@syafiqhadzir.dev
+## 📄 License
 
-Project Link: [https://github.com/SyafiqHadzir/Hunspell-TH](https://github.com/SyafiqHadzir/Hunspell-TH)
+Distributed under the **General Public License v3.0 (GPLv3)**. See `LICENSE` for more information.
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+## 📞 Contact
 
-[contributors-shield]: https://img.shields.io/github/contributors/SyafiqHadzir/Hunspell-TH.svg?style=flat-square
-[contributors-url]: https://github.com/SyafiqHadzir/Hunspell-TH/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/SyafiqHadzir/Hunspell-TH.svg?style=flat-square
-[forks-url]: https://github.com/SyafiqHadzir/Hunspell-TH/network/members
-[stars-shield]: https://img.shields.io/github/stars/SyafiqHadzir/Hunspell-TH.svg?style=flat-square
-[stars-url]: https://github.com/SyafiqHadzir/Hunspell-TH/stargazers
-[license-url]: http://www.gnu.org/copyleft/fdl.html
+**Syafiq Hadzir**
+*   Website: [syafiqhadzir.dev](https://syafiqhadzir.dev)
+*   GitHub: [SyafiqHadzir](https://github.com/SyafiqHadzir)

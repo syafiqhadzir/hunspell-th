@@ -1,0 +1,25 @@
+name: Dictionary Integrity Check
+
+on:
+  push:
+    branches: [ master, main ]
+  pull_request:
+    branches: [ master, main ]
+
+jobs:
+  test-dictionary:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Install Hunspell
+      run: sudo apt-get update && sudo apt-get install -y hunspell
+
+    - name: Verify Dictionary Loads
+      run: |
+        # Create a test file
+        echo "สวัสดี" > test.txt
+        # Run hunspell with the local dictionary
+        # -d specifies dictionary path/name (without extension)
+        hunspell -d ./th_TH -i utf-8 test.txt
