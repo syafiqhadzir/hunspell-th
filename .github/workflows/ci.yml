@@ -1,0 +1,44 @@
+name: CI
+
+on:
+  push:
+    branches: [ master, main ]
+  pull_request:
+    branches: [ master, main ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Use Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18.x'
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Run Tests
+      run: npm test
+
+    - name: Verify Dictionary Sorting
+      run: |
+        npm run sort-dict
+        # Check if any files changed. If they did, the dictionary wasn't sorted.
+        if [[ -n $(git status -s) ]]; then
+          echo "Dictionary is not sorted or normalized. Please run 'npm run sort-dict' and commit the changes."
+          git diff
+          exit 1
+        fi
+
+    - name: Install Hunspell (System)
+      run: sudo apt-get update && sudo apt-get install -y hunspell
+
+    - name: Verify Loading in Hunspell
+      run: |
+        echo "สวัสดี" > test.txt
+        hunspell -d ./th_TH -i utf-8 test.txt

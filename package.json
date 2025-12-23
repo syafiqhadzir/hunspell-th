@@ -2,6 +2,12 @@
   "name": "hunspell-th",
   "version": "0.1.0",
   "description": "Thai (th_TH) dictionary extension for Hunspell. Released under GPLv3.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.spec.js",
+    "lint": "echo \"No linting yet\" && exit 0",
+    "sort-dict": "node scripts/sort-dict.js"
+  },
   "keywords": [
     "hunspell",
     "thai",
@@ -12,16 +18,22 @@
   ],
   "files": [
     "th_TH.aff",
-    "th_TH.dic"
+    "th_TH.dic",
+    "index.js"
   ],
+  "author": "Syafiq Hadzir <syafiqhadzir@live.com.my> (https://syafiqhadzir.dev)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/SyafiqHadzir/Hunspell-TH/issues"
+  },
+  "homepage": "https://github.com/SyafiqHadzir/Hunspell-TH",
   "repository": {
     "type": "git",
     "url": "https://github.com/SyafiqHadzir/Hunspell-TH.git"
   },
-  "bugs": {
-    "url": "https://github.com/SyafiqHadzir/Hunspell-TH/issues"
-  },
-  "author": "Syafiq Hadzir <syafiqhadzir@live.com.my> (https://syafiqhadzir.dev)",
-  "license": "GPL-3.0",
-  "homepage": "https://github.com/SyafiqHadzir/Hunspell-TH"
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "nspell": "^2.1.5"
+  }
 }
