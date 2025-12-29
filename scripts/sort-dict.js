@@ -1,5 +1,9 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const DIC_PATH = path.join(__dirname, '../th_TH.dic');
 
@@ -11,10 +15,10 @@ try {
     let lines = content.split(/\r?\n/);
 
     // Remove empty lines
-    lines = lines.filter(line => line.trim() !== '');
+    lines = lines.filter((line) => line.trim() !== '');
 
     // Extract word count (first line)
-    // Sometimes the first line is purely a number, sometimes it might be corrupted. 
+    // Sometimes the first line is purely a number, sometimes it might be corrupted.
     // We will recalculate it anyway, but let's try to identify if the first line is the count.
     const originalCount = parseInt(lines[0], 10);
     let words = [];
@@ -40,7 +44,6 @@ try {
 
     fs.writeFileSync(DIC_PATH, newContent, 'utf8');
     console.log('Dictionary sorted and saved successfully.');
-
 } catch (error) {
     console.error('Error sorting dictionary:', error);
     process.exit(1);

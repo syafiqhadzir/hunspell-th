@@ -3,8 +3,10 @@
     "version": "0.1.0",
     "description": "Thai (th_TH) dictionary extension for Hunspell. Released under GPLv3.",
     "main": "index.js",
+    "type": "module",
     "scripts": {
-        "test": "mocha test/**/*.spec.js",
+        "test": "vitest run",
+        "coverage": "vitest run --coverage",
         "lint": "eslint .",
         "lint:fix": "eslint . --fix",
         "format": "prettier --write .",
@@ -47,13 +49,13 @@
         "@commitlint/cli": "^19.0.0",
         "@commitlint/config-conventional": "^19.0.0",
         "@eslint/js": "^9.39.2",
-        "chai": "^4.4.1",
+        "@vitest/coverage-v8": "^4.0.16",
         "eslint": "^9.0.0",
         "globals": "^16.5.0",
         "husky": "^9.0.11",
         "lint-staged": "^15.2.2",
-        "mocha": "^10.4.0",
         "nspell": "^2.1.5",
-        "prettier": "^3.2.5"
+        "prettier": "^3.2.5",
+        "vitest": "^4.0.16"
     }
 }
