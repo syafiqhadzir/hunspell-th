@@ -1,0 +1,26 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base",
+    ":preserveSemverRanges",
+    ":dependencyDashboard",
+    "group:monorepos",
+    "group:recommended",
+    "helpers:pinGitHubActionDigests"
+  ],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    },
+    {
+      "groupName": "biome",
+      "matchPackagePatterns": ["^@biomejs/"]
+    },
+    {
+      "groupName": "vitest",
+      "matchPackagePatterns": ["^vitest", "^@vitest/"]
+    }
+  ],
+  "schedule": ["before 4am on monday"]
+}
