@@ -1,0 +1,52 @@
+name: Release
+
+on:
+    push:
+        tags:
+            - 'v*'
+
+jobs:
+    build:
+        name: Build & Test
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+            - uses: actions/setup-node@v3
+              with:
+                  node-version: '18.x'
+                  cache: 'npm'
+            - run: npm ci
+            - run: npm test
+            - run: npm run lint
+
+    publish-npm:
+        needs: build
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+            - uses: actions/setup-node@v3
+              with:
+                  node-version: '18.x'
+                  registry-url: 'https://registry.npmjs.org'
+            - run: npm ci
+            - run: npm publish
+              env:
+                  NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+              continue-on-error: true # Don't fail if NPM release already exists or token missing
+
+    release-github:
+        needs: build
+        runs-on: ubuntu-latest
+        permissions:
+            contents: write
+        steps:
+            - uses: actions/checkout@v3
+
+            - name: Create Zip Artifact
+              run: zip -r hunspell-th-${{ github.ref_name }}.zip th_TH.dic th_TH.aff README.md LICENSE
+
+            - name: Create Release
+              uses: softprops/action-gh-release@v1
+              with:
+                  files: hunspell-th-${{ github.ref_name }}.zip
+                  generate_release_notes: true
