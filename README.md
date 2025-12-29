@@ -1,9 +1,10 @@
 
 # Hunspell-TH: Thai Dictionary for Hunspell
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg?longCache=true)](https://www.gnu.org/licenses/gpl-3.0)
-[![Wordlist Size](https://img.shields.io/badge/Wordlist-38k%2B-green.svg)](th_TH.dic)
-[![Encoding](https://img.shields.io/badge/Encoding-UTF--8-success.svg)](#)
+[![CI](https://github.com/SyafiqHadzir/Hunspell-TH/actions/workflows/ci.yml/badge.svg)](https://github.com/SyafiqHadzir/Hunspell-TH/actions/workflows/ci.yml)
+[![NPM Version](https://img.shields.io/npm/v/hunspell-th?logo=npm)](https://www.npmjs.com/package/hunspell-th)
+[![GitHub Release](https://img.shields.io/github/v/release/SyafiqHadzir/Hunspell-TH?logo=github)](https://github.com/SyafiqHadzir/Hunspell-TH/releases)
+[![License](https://img.shields.io/github/license/SyafiqHadzir/Hunspell-TH)](LICENSE)
 
 A high-quality Thai (`th_TH`) dictionary extension for Hunspell, optimized for accuracy and performance. This project aims to provide a unified and expertly maintained wordlist for Thai spell-checking applications.
 

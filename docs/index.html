@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Hunspell-TH Demo</title>
+        <style>
+            body {
+                font-family:
+                    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+                    Helvetica, Arial, sans-serif;
+                padding: 2rem;
+                max-width: 800px;
+                margin: 0 auto;
+                background: #f9f9f9;
+            }
+            textarea {
+                width: 100%;
+                height: 200px;
+                padding: 1rem;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                font-size: 16px;
+                margin-bottom: 1rem;
+            }
+            .results {
+                background: white;
+                padding: 1rem;
+                border-radius: 4px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            }
+            .error {
+                color: #d32f2f;
+            }
+            .valid {
+                color: #388e3c;
+            }
+            button {
+                background: #007bff;
+                color: white;
+                border: none;
+                padding: 0.5rem 1rem;
+                border-radius: 4px;
+                cursor: pointer;
+                font-size: 16px;
+            }
+            button:hover {
+                background: #0056b3;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Hunspell-TH Interactive Demo</h1>
+        <p>
+            Type Thai text below to check spelling against the
+            <code>th_TH</code> dictionary.
+        </p>
+
+        <div id="status">Loading dictionary...</div>
+
+        <textarea
+            id="input"
+            placeholder="พิมพ์ข้อความภาษาไทยที่นี่..."
+        ></textarea>
+        <button onclick="checkSpelling()">Check Spelling</button>
+
+        <h3>Results:</h3>
+        <div id="results" class="results"></div>
+
+        <script type="module" src="demo.js"></script>
+    </body>
+</html>
