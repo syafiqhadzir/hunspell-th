@@ -1,0 +1,6 @@
+--- Deep Study Analysis ---
+Total words: 38722
+Words needing NFC normalization: 0
+Calculated Optimal TRY order (top 50): ารนกอังม้วิยตลเ่ดสบคะีทปหุจชพ์ขูำแืผโศถณซธไ็ญภษึใฉ
+Current AFF TRY: ารนกอังม้วิยตลเ่ดสบคะีทปหุจชพ์ขูำแืผโศถณซธไ็ญภษึใฉฟฝ๊ฐฤ.ฏ๋ฑฎฮฆฬฒฌ-"ฯํ3ฃฅ!24
+Exact duplicates found: 0

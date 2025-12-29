@@ -33,7 +33,7 @@ The process is straightforward:
 1.  Fork the repo and create your branch from `master`.
 2.  If you've added code that should be tested, add tests.
 3.  Ensure the test suite passes (`npm test`).
-4.  Make sure your code lints (`npm run lint`).
+4.  Make sure your code lints (`npm run lint`) and is formatted (`npm run format`).
 
 ## Styleguides
 
